@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <title>Elements Hightlighter</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300|Lobster+Two:700italic">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>The<br> elements highlighter<br> bookmarklet</h1>
+        </header>
+        <p>
+            With this magnificent and so useful bookmarklet, You will be able to hightlight every HTML elements on any website in one click.
+        </p>
+        <p>
+        	Click on this button to see what this is about, then drag and drop it into your bookmarks to use it whenever and wherever you want!
+        </p>
+        <a role="button" title="Highlight every HTML elements on any website!" href="javascript:(function(){var e='*{outline:1px solid rgba(255,0,0,.3)}}',t=document.head||document.getElementsByTagName('head')[0],d=document.createElement('style');d.type='text/css',d.styleSheet?d.styleSheet.cssText=e:d.appendChild(document.createTextNode(e)),t.appendChild(d)})();">Highlight elements</a>
+	</div>
+</body>
+</html>
