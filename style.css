@@ -19,7 +19,7 @@ h1 {
 p {
 	text-align: left;
 }
-a {
+[role="button"] {
 	display: inline-block; padding: .5em 1em;
 	background: #bada55;
 	color: #fff; text-decoration: none;
