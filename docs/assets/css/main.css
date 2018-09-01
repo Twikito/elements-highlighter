@@ -1,0 +1,114 @@
+:root {
+    --theme: #00b0b0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font: 400 1.6em / 1.5 'Open Sans', sans-serif; color: #556;
+}
+
+@media (min-width: 600px) {
+	body {
+		font-size: 2em;
+	}
+}
+
+abbr {
+	text-decoration: none;
+}
+
+header {
+	padding: 2% 0;
+	color: var(--theme);
+	transition: background-color .3s ease-in-out;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+h1 {
+	margin: .5em 0;
+	font-size: 2em; line-height: 1.1; font-family: 'Roboto Slab'; font-weight: 500; text-align: center;
+}
+
+a {
+	color: var(--theme);
+	transition: .15s ease-out;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+footer {
+	font-size: .875em; text-align: center;
+}
+
+.wrapper {
+	display: flex; max-width: 70rem; min-height: 100%; margin-left: auto; margin-right: auto; padding-left: 5vw; padding-right: 5vw;
+	flex-flow: column nowrap; justify-content: flex-start; align-items: stretch;
+}
+
+p,
+.p-like {
+	margin: 1em 0;
+}
+
+.color-theme {
+	color: var(--theme);
+}
+
+.text-lg {
+	font-size: 1.5em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.logo {
+	display: block; max-width: 40rem; margin: auto;
+}
+
+.logo strong {
+	display: block;
+	font-weight: inherit;
+}
+
+.logo span {
+	display: inline-block; padding: 1em;
+	border: 2px solid currentColor;
+}
+
+.logo .text1 {
+	margin-bottom: -.75em;
+	text-align: left;
+}
+
+.logo .text2 {
+	margin-top: -.75em;
+	text-align: right;
+}
+
+[role='button'] {
+	display: inline-block; padding: 1em 2em; margin: 1em 0;
+	border: .125em solid rgba(0,0,0,.25);
+	background-color: var(--theme);
+	font-size: 1em; color: white; text-decoration: none;
+}
+[role='button']:hover,
+[role='button']:focus {
+	background-color: #f6f8fa;
+	color: inherit;
+}

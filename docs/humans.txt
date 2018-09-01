@@ -1,0 +1,15 @@
+/* CREATOR */
+
+	Matthieu Bué
+	Twikito.com
+	github.com/Twikito
+	@Twikito
+	Bordeaux, France
+
+
+/* DOC SITE */
+
+	Language: English
+	Doctype: HTML5, CSS3
+	IDE: Sublime Text
+	Build with: hands, fingers, brain, open mind, love and coffee
