@@ -56,7 +56,7 @@ footer {
 }
 
 .wrapper {
-	display: flex; max-width: 70rem; min-height: 100%; margin-left: auto; margin-right: auto; padding-left: 5vw; padding-right: 5vw;
+	display: flex; max-width: 50rem; min-height: 100%; margin-left: auto; margin-right: auto; padding-left: 5vw; padding-right: 5vw;
 	flex-flow: column nowrap; justify-content: flex-start; align-items: stretch;
 }
 
