@@ -1,0 +1,1 @@
+!function(){var e='*{ outline: 1px solid rgba(255,0,0,.3) !important; }',t=document.head||document.getElementsByTagName('head')[0],d=document.createElement('style');d.type='text/css',d.styleSheet?d.styleSheet.cssText=e:d.appendChild(document.createTextNode(e)),t.appendChild(d)}();
